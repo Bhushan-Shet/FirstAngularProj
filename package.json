@@ -6,11 +6,20 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+     "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bhushan-Shet/FirstAngularProj.git"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
+    
   "dependencies": {
     "gulp": "^3.9.1",
     "gulp-concat": "^2.6.1"
-  }
+  },
+     "bugs": {
+    "url": "https://github.com/Bhushan-Shet/FirstAngularProj/issues"
+  },
+  "homepage": "https://github.com/Bhushan-Shet/FirstAngularProj#readme"
 }
