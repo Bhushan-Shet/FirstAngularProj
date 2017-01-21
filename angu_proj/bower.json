@@ -1,0 +1,23 @@
+{
+  "name": "angular",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "Bhushan-Shet <bhushanshet@yahoo.co.in>"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "angular": "angularjs#^1.6.1",
+    "font-awesome": "^4.7.0",
+    "underscore": "^1.8.3"
+  }
+}
