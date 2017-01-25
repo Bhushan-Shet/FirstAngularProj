@@ -12,7 +12,7 @@
 
 <body>
     <div class="container">
-        <div ng-include="'app/header/header.tpl.html'"></div>
+        <div ng-controller="headerCtrl as hc" ng-include="'app/header/header.tpl.html'"></div>
     
     </div>
     <!--header-->
@@ -20,7 +20,10 @@
     <script src="app/header/headerCtrl.js"></script>
     
     <!--header-complete-->
-     <script src="app/register/register.js"></script>
+    <!-- register-->
+    <script src="app/register/register.js"></script>
+    <script src="app/register/registerCtrl.js"></script>
+    <!-- register- complete-->
     <script src="app/login/login.js"></script>
      <script src="app/app.js"></script>
    
