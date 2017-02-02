@@ -12,11 +12,20 @@
 
 <body>
     <div class="container">
-        <div ng-controller="headerCtrl as hc" ng-include="'app/header/header.tpl.html'"></div>
+        <div ng-controller="headerCtrl as hc" >
+          <!--  ng-include="'app/header/header.tpl.html'" 
+this above ng-include was tag removed after using cm-header directive was introduced
+-->
+                           <cm-header></cm-header>
+        </div>
     </div>
     <!--common-->
     <script src="app/common/common.js"></script>
-    <script src="app/common/commonlookupService.js"></script>         
+    <script src="app/common/commonlookupService.js"></script>  
+    <script src="app/common/commonBrandName.js"></script>
+    <script src="app/common/commonHeader.js"></script>
+    
+    <script src="app/common/commonNumbersOnly.js"></script>
     <!--common-complete-->
     
     <!--header-->
